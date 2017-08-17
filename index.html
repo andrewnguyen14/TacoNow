@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+	<title>TacoNow</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+
+				<a class="navbar-brand" href="#"><img src="assets/images/tacologo.png" width="30" height="30" alt=""></a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">Contact</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">Meet The Team</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">Donate</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<header id="header" class="page-header container=fluid">
+			<div class="row">
+				<div class="col-md-2">
+					<img src="assets/images/tacologo.png">
+				</div>
+				<div class="col-md-2">
+					<h1>Taco<span style="color:red">Now</span></h1>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="row">
+				<div class="col-md-12 text-center" id="description">What are you waiting for? <br> Insert where you want to get tacos and start your Taco-venture!
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-6">
+					<form id="em-form">
+						<input type="text" id="input-location" placeholder="Enter location here">
+						<input id="submit-location" type="submit" value=" Location Search">
+					</form>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-6 container-fluid">
+					<div id="mapDiv" class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Map</h3>
+						</div>
+						<input id="pac-input" class="controls" type="text" placeholder="Search Box" hidden>
+						<div id="map" class="panel-body container-fluid">
+							<img width="500px" height="300px" src="https://media.tenor.com/images/f5a5924a08066541419ea215fba7f7b4/tenor.gif">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 container-fluid">
+					<div>
+						<div id="resultsView"></div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+	</div>
+	<footer id="footer">Taco Now Copyright 2017</footer>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPyXEGlTM-ZZkhsdd3ZYeVheDM8Jtl5aQ&libraries=places" async defer></script>
+</body>
+
+</html>
