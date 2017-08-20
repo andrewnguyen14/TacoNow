@@ -28,14 +28,14 @@ h1{
 }
 
 #header {
-	/*margin-top: .1%;
-	margin-left: 10%;*/
+	margin-top: .1%;
+	margin-left: 10%;
 	background-color: white;
 	text-align: center;
-	/*padding-left: 100px;*/
+	padding-left: 100px;
 	border: 2px solid red;
 	border-radius: 10px;
-	/*width: 900px;*/
+	width: 900px;
 	background: rgba(255, 255, 255, .7);
 }
 
