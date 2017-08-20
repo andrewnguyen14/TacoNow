@@ -44,7 +44,6 @@ function initAutocomplete() {
                 }
             }
 
-            // -------------Taco Icon----------------------------
 //change marker icon to Taco
             var icon = {
                 url: "assets/images/tacomap.png",
@@ -54,8 +53,7 @@ function initAutocomplete() {
                 scaledSize: new google.maps.Size(25, 25)
             };
 
-            // ---------------------------------------------------
-            //create markers based on search
+//create markers based on search
             function createMarker(place) {
                 var placeLoc = place.geometry.location;
                 var marker = new google.maps.Marker({
@@ -63,21 +61,20 @@ function initAutocomplete() {
                     icon: icon,
                     position: place.geometry.location
                 });
-                //display info upon click on marker
+
+//display info upon click on marker
                 google.maps.event.addListener(marker, 'click', function() {
                     infowindow.setContent(place.name + "<br>" + "Address: " + place.formatted_address + "<br>" + "Rating: " + place.rating + "<br>" + "Open: " + place.opening_hours.open_now);
                     infowindow.open(map, this);
                     console.log(place);
 
-                    // -------Display Results-----------------------
-                    // create div for each selection clicked
+         
+// create div for each selection clicked and display
                     var resultsDiv = $('<div>');
                     resultsDiv.attr('class', 'panel panel-primary clickOptions')
                     var p = $("<p>").html("<b>"+place.name+"</b>" + "<br>" + "Address: " + place.formatted_address + "<br>" + "Rating: " + place.rating+ "/ 5");
                     resultsDiv.append(p);
                     $('#resultsView').prepend(resultsDiv);
-
-                    // ______________________________________________
                 });
             };
         });

@@ -5,8 +5,6 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: 'Sedgwick Ave Display', cursive;
-
-
 }
 
 h1{
@@ -14,6 +12,7 @@ h1{
 	font-size: 90px !important;
 	text-align: center !important;
 }
+
 #map{
 	height: 400px;
 	width: 100%;
@@ -28,14 +27,14 @@ h1{
 }
 
 #header {
-	margin-top: .1%;
-	margin-left: 10%;
+	/*margin-top: .1%;
+	margin-left: 10%;*/
 	background-color: white;
 	text-align: center;
-	padding-left: 100px;
+	/*padding-left: 100px;*/
 	border: 2px solid red;
 	border-radius: 10px;
-	width: 900px;
+	/*width: 900px;*/
 	background: rgba(255, 255, 255, .7);
 }
 
@@ -45,7 +44,6 @@ background-color: rgba(255, 255, 255, .7);
 	border-radius: 10px;
 	font-family: 'Sedgwick Ave Display', cursive;
 	font-size: 40px;
-
 }
 
 #mapDiv {
@@ -56,14 +54,9 @@ background-color: rgba(255, 255, 255, .7);
 
 #em-form{
 	position: absolute;
-	background-color: white;
-	border: 2px solid red;
-	border-radius: 10px;
 	text-align: center;
 	margin-left: 69%;
 	width: 400px;
-	background: rgba(255, 255, 255, .5);
-
 }
 
 #resultsView{
