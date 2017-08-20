@@ -11,6 +11,7 @@ h1{
 	font-family: 'Faster One', cursive !important;
 	font-size: 90px !important;
 	text-align: center !important;
+	display: inline;
 }
 
 #map{
@@ -53,10 +54,10 @@ background-color: rgba(255, 255, 255, .7);
 }
 
 #em-form{
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
-	margin-left: 69%;
-	width: 400px;
+	/*margin-left: 69%;*/
+	/*width: 400px;*/
 }
 
 #resultsView{
