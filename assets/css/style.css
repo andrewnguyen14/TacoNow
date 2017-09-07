@@ -28,14 +28,11 @@ h1{
 }
 
 #header {
-	/*margin-top: .1%;
-	margin-left: 10%;*/
+	
 	background-color: white;
 	text-align: center;
-	/*padding-left: 100px;*/
 	border: 2px solid red;
 	border-radius: 10px;
-	/*width: 900px;*/
 	background: rgba(255, 255, 255, .7);
 }
 
@@ -43,8 +40,8 @@ h1{
 background-color: rgba(255, 255, 255, .7);
 	border: 2px solid red;
 	border-radius: 10px;
-	font-family: 'Sedgwick Ave Display', cursive;
-	font-size: 40px;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 20px;
 }
 
 #mapDiv {
